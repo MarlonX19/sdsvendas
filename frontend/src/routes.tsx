@@ -8,14 +8,14 @@ import Dashboard from 'pages/Dashboard';
 const Routes: React.FC = () => {
   return (
     <BrowserRouter>
-    <Switch>
-      <Route path='/' exact>
-        <Home/>
-      </Route>
-      <Route path='/dashboard' exact>
-        <Dashboard />
-      </Route>
-    </Switch>
+      <Switch>
+        <Route path='/' exact>
+          <Home />
+        </Route>
+        <Route path='/dashboard' exact>
+          <Dashboard />
+        </Route>
+      </Switch>
     </BrowserRouter>
   )
 }
